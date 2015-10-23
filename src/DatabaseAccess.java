@@ -10,7 +10,7 @@ import javax.net.ssl.HttpsURLConnection;
 
 public class DatabaseAccess {
 
-	private final String USER_AGENT = "Mozilla/5.0";
+	private final String USER_AGENT = "hack_user14";
 
 	public static void main(String[] args) throws Exception {
 
@@ -25,7 +25,7 @@ public class DatabaseAccess {
 	// HTTP GET request
 	private void sendGet() throws Exception {
 
-		String url = "http://www.google.com/search?q=mkyong";
+		String url = "/tdrest/system/housing_data";
 		
 		URL obj = new URL(url);
 		HttpURLConnection con = (HttpURLConnection) obj.openConnection();
